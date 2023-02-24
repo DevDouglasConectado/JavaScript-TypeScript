@@ -32,7 +32,7 @@ console.log(vaiExecutar3 && falaOi());
  * exibe qualquer um deles, vai retorna. verdadeiro
  * 
 */
-console.log("--------------------------")
+console.log("-----------||---------------")
 console.log(0 || false || null || 'luiz otávio' || true);
 
 const corUsuario = 'vermelho';
