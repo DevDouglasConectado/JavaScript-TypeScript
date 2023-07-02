@@ -1,7 +1,5 @@
 const h1 = document.querySelector('.container h1');
 const data = new Date();
-
-
 function getDiaSemanaTexto(diaSemana){
     let diaSemanaTexto;
 
@@ -10,19 +8,19 @@ function getDiaSemanaTexto(diaSemana){
             diaSemanaTexto = 'Domingo';
             return diaSemanaTexto;
         case 1:
-            diaSemanaTexto = 'Segunda';
+            diaSemanaTexto = 'Segunda-feira';
             return diaSemanaTexto;
         case 2:
-            diaSemanaTexto = 'Terça';
+            diaSemanaTexto = 'Terça-feira';
             return diaSemanaTexto;
         case 3:
-            diaSemanaTexto = 'Quarta';
+            diaSemanaTexto = 'Quarta-feira';
             return diaSemanaTexto;
         case 4:
-            diaSemanaTexto = 'quinta';
+            diaSemanaTexto = 'quinta-feira';
             return diaSemanaTexto;
         case 5:
-            diaSemanaTexto = 'sexta';
+            diaSemanaTexto = 'sexta-feira';
             return diaSemanaTexto;
         case 6:
             diaSemanaTexto = 'Sabado';
