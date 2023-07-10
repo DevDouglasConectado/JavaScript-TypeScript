@@ -1,16 +1,18 @@
 const animais = document.getElementById('animais');
-console.log(animais);
+console.log(animais);//innerText
+console.log("*************************");
 
 const gridSection = document.getElementsByClassName('grid-section');
-console.log(gridSection[1])
+console.log(gridSection[1]);
+console.log("*************************");
 
 const primeiraLi = document.querySelector('li');
-console.log(primeiraLi)
+console.log(primeiraLi);
 
 const primeiraUl = document.querySelector('ul');
 console.log(primeiraUl)
 
-const linkInterno = document.querySelector('[href^="#"]');
+/*const linkInterno = document.querySelector('[href^="#"]');
 console.log(linkInterno);
 
 const animaisImg = document.querySelectorAll('.animais img');
@@ -32,4 +34,4 @@ const arrayGrid = Array.from(gridSectionHTML);
 
 arrayGrid.forEach(function(item) {
   console.log(item);
-})
+})*/
