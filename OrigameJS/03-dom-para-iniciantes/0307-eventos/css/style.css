@@ -10,6 +10,9 @@ html.textomaior {
 .azul {
   background: teal;
 }
+.vermelho{
+  background: blueviolet;
+}
 
 img {
   display: block;
