@@ -57,7 +57,7 @@ console.log(retorno);*/
 
 
 const promessa = new Promise((resolve, reject)=>{
-    let condicao = false;
+    let condicao = true;
     if(condicao){
         setTimeout(()=>{
             resolve({nome:'andre',idade:28});
@@ -74,10 +74,11 @@ const retorno = promessa
     return resolucao;
 })
    .then(resolucao => {
-    console.log(resolucao);
-})
-   .catch(rejeitada =>{{
-    console.log('CATH');
+    console.log(resolucao)
+},rejeitada => {
     console.log(rejeitada);
-}})
-console.log(retorno);
+}).finally(() => {
+    console.log('Acabou')
+})
+
+
